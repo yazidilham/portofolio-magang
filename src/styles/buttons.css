@@ -1,0 +1,33 @@
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  padding: 14px 28px;
+
+  border-radius: 14px;
+
+  text-decoration: none;
+
+  transition: var(--transition);
+}
+
+.btn-primary {
+  background: #fff;
+  color: #111;
+}
+
+.btn-primary:hover {
+  transform: translateY(-3px);
+}
+
+.btn-secondary {
+  border: 1px solid var(--border-strong);
+  color: var(--text);
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.05);
+}

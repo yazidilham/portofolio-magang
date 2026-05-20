@@ -1,0 +1,33 @@
+@media (max-width: 900px) {
+
+  .hero-inner {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .hero-title {
+    font-size: 3.5rem;
+  }
+
+  .button-group {
+    justify-content: center;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .hero-title {
+    font-size: 2.7rem;
+  }
+
+  .hero-photo {
+    width: 220px;
+    height: 280px;
+  }
+
+}
